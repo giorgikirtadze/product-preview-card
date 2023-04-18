@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /*monsterat-500*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Fraunces-700 */
+
+body {
+    background-color: #F2F2F2
+    ;
+}
+.main_container {
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.main_image img {
+    width: 300.69px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+.first_p {
+    color: rgba(108, 114, 137, 1);
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.information {
+    /* width: 300px; */
+    position: relative;
+    left: 33px;
+    background-color: white;
+}
+
+.information h1 {
+    width: 236px;
+    font-size: 32px;
+    color: rgba(28, 35, 43, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.information .two_p{
+    width: 237px;
+    font-size: 14px;
+    color: rgba(108, 114, 137, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    display: flex;
+    align-items: center
+}
+
+.price h1{
+    width: 127px;
+    font-size: 32px;
+    color: rgba(61, 129, 104, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+}
+
+.price h3{
+    font-size: 13px;
+    color: rgba(108, 114, 137, 1);
+    text-decoration: line-through;
+}
+
+button {
+    height: 48px;
+    width: 236px;
+    border-radius: 8px;
+    background-color: rgba(26, 64, 50, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+
+button img {
+    width: 14.39px;
+    height: 16px;
+    position: relative;
+    right: 11.61px;
+}
